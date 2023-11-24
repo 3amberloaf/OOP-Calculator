@@ -1,10 +1,7 @@
 """This is the calculation class """
 from pprint import pprint
-
 import pytest
-
 from app.calculations import Addition, Subtraction, Multiplication, Division
-
 
 def test_addition_calculation():
     """Add Two Numbers"""

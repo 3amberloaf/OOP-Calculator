@@ -2,11 +2,9 @@
 import pytest
 from app.operations import division
 
-
 def test_division():
     """Divide Two Numbers"""
     assert division(2, 2) == 1
-
 
 def test_divide_zero_exception():
     """Tests that division by zero exception is thrown"""

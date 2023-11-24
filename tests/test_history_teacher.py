@@ -2,7 +2,6 @@
 from app.calculations import Addition, Multiplication
 from app.history import History
 
-
 def test_history_operations():
     """Basic History Tests using the Instance"""
     addition_instance = Addition(1, 2)

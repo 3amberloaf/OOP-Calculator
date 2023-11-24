@@ -1,6 +1,5 @@
 from app.calculator import Calculator
 
-
 def test_calculator_operations():
     """Basic Calculator Tests using the Instance"""
     assert Calculator.add(2, 2) == 4, "The Addition Function Failed"
