@@ -8,7 +8,6 @@ from app.calculations import Addition, Subtraction, Multiplication, Division
 
 def test_addition_calculation():
     """Add Two Numbers"""
-    # notice that each instance is independent of each other
     addition_instance_1 = Addition.create(2, 2)
     pprint(addition_instance_1)
     addition_instance_2 = Addition.create(3, 3)
@@ -20,7 +19,6 @@ def test_addition_calculation():
 
 def test_subtraction_calculation():
     """Subtract Two Numbers"""
-    # notice that each instance is independent of each other
     subtraction_instance_1 = Subtraction.create(2, 2)
     subtraction_instance_2 = Subtraction.create(3, 2)
     assert isinstance(subtraction_instance_1, Subtraction), "Not a Subtraction Instance"
@@ -31,7 +29,6 @@ def test_subtraction_calculation():
 
 def test_multiplication_calculation():
     """Multiply Two Numbers"""
-    # notice that each instance is independent of each other
     multiplication_instance_1 = Multiplication.create(2, 2)
     multiplication_instance_2 = Multiplication.create(3, 2)
     assert isinstance(multiplication_instance_1, Multiplication), "Not a Multiplication Instance"
@@ -42,8 +39,6 @@ def test_multiplication_calculation():
 
 def test_division_calculation():
     """Divide Two Numbers"""
-    # pylint: disable = expression-not-assigned
-    # notice that each instance is independent of each other
     division_instance_1 = Division.create(2, 2)
     division_instance_2 = Division.create(3, 2)
 

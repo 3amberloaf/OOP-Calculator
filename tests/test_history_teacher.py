@@ -1,4 +1,4 @@
-"""Do not change these tests, they are meant to check your code and should fail"""
+"""Tests that are meant to check your code and should fail"""
 from app.calculations import Addition, Multiplication
 from app.history import History
 

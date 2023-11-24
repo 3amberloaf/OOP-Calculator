@@ -26,4 +26,16 @@ I have established three calculators; teacher calculator, teacher calculation, a
 2. Install the necessary requirements
    - pip3 install -r requirements.txt
 
-3. 
+3. Test the functions 
+   - pytest tests/
+
+
+## Conclusion
+
+In this program, we have established the basics of OOP programming.
+
+1. Establish calculator subclasses so the calculations are result at run time, rather than stored
+2. Added a constructor to the calculations class that sets val1 and val2
+3. Created a history class that extends the built-in list class and added it to the calculator as a static property
+4. Added methods for the history: constructor, get last result, and print history Note run pytest with -s option i.e. pytest -s to show printed output
+5. Added a `repr` method to the calculation to properly print the object contents.
