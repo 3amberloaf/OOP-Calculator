@@ -1,7 +1,6 @@
 """Calculator class and +,/,-,* classes"""
 
 from app.operations import *
-
 #Calculator class
 class Calculation:
     """Abstract base Calculator class"""
